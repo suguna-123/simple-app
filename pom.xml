@@ -20,4 +20,16 @@
 
 	</dependencies>
 	
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://65.0.180.215:8081/repository/sample-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://65.0.180.215:8081/repository/mysample-repo/</url>
+    </snapshotRepository>
+</distributionManagement>    	
 </project>
