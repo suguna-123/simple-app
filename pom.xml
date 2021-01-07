@@ -19,7 +19,6 @@
 		</dependency>
 
 	</dependencies>
-	
 <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -31,5 +30,5 @@
       <name>Snapshot</name>
       <url>http://13.235.87.29:8081/repository/mysample-repo/</url>
     </snapshotRepository>
-</distributionManagement>    	
+  </distributionManagement>    	
 </project>
