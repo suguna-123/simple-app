@@ -23,12 +23,12 @@
     <repository>
       <id>nexus</id>
       <name>Releases</name>
-      <url>http://65.0.125.27:8081/repository/sample-release/</url>
+      <url>http://13.232.66.201:8081/repository/sample-release/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Snapshot</name>
-      <url>http://65.0.125.27:8081/repository/mysample-repo/</url>
+      <url>http://13.232.66.201:8081/repository/mysample-repo/</url>
     </snapshotRepository>
   </distributionManagement>    	
 </project>
