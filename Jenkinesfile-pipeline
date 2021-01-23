@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    environment {
+        PATH=  "/opt/maven/apache-maven-3.6.3/bin:$PATH"
+    }
+        
+    
+        
+    
+    stages {
+        stage("cloninig code "){
+            steps{
+                git credentialsId: '1966c697-ee13-4472-92f7-371c910727f0', url: 'https://github.com/suguna-123/simple-app.git'
+            }
+        }     
+           
+       stage("build a code "){
+           steps{
+               sh "mvn clean package install"
+               
+           }
+       }    
+  
+
+    }
+
+}
